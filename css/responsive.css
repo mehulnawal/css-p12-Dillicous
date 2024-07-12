@@ -1,0 +1,627 @@
+@media (max-width:1399) {
+    footer {
+        height: fit-content;
+    }
+
+
+}
+
+/* max-width:1199px  - ipad and mini ipad*/
+@media (max-width:1199px) {
+
+    .col-ip-12 {
+        width: 100%;
+    }
+
+    .navbar .nav-left nav,
+    .nav-right .delivery-man,
+    .nav-right .order {
+        display: none;
+    }
+
+    .nav-right .fa-magnifying-glass,
+    .fa-cart-shopping {
+        border: none;
+        margin-left: 10px;
+        border-radius: 0%;
+    }
+
+    .fa-cart-shopping {
+        margin-left: 20px;
+        position: relative;
+    }
+
+    .fa-cart-shopping:after {
+        content: '';
+        position: absolute;
+        left: -10px;
+        top: 5px;
+        width: 2px;
+        height: 30px;
+        background-color: rgba(255, 255, 255, 0.2);
+    }
+
+    .fa-bars {
+        margin-left: 20px;
+        display: inline-block;
+    }
+
+    .banner {
+        flex-direction: column;
+    }
+
+    .best-img {
+        margin-top: 30px;
+        margin-bottom: 15%;
+    }
+
+    .bb2 {
+        margin-left: 0px;
+        text-align: start;
+    }
+
+    .delivery-bg {
+        display: none;
+    }
+
+    .delivery-inner::before{
+        display: none;
+    }
+
+    .delivery-inner {
+        flex-direction: column;
+    }
+
+    /* .social-links {
+        height: 100px;
+        width: 100px;
+        background-color: blueviolet;
+        display: block;
+    }
+
+    .social-links i {
+        width: 100px;
+        height: 20px;
+        color: aqua;
+    } */
+
+    header {
+        height: 1500px;
+    }
+
+    .banner-img {
+        margin: auto;
+    }
+
+    .pizza-main {
+        width: 600px;
+    }
+
+    .pizza-1 {
+        width: 300px;
+        top: 310px;
+    }
+
+
+    .pizza-2 {
+        width: 280px;
+        left: 370px;
+        top: 320px;
+    }
+
+    .pizza-3 {
+        width: 300px;
+        top: 145px;
+        left: 380px;
+    }
+
+    .offer {
+        display: none;
+    }
+
+    .garlic {
+        bottom: -3%;
+        left: 10%;
+        position: absolute;
+        width: 120px;
+    }
+
+    .garlic2 {
+        display: block;
+        top: 50%;
+        left: 85%;
+        position: absolute;
+        width: 180px;
+    }
+
+    .red-chilli {
+        display: block;
+        top: 900px;
+        right: -50px;
+        position: absolute;
+        width: 100px;
+    }
+
+    .mashrrom {
+        position: absolute;
+        top: 60%;
+        right: 80%;
+        width: 120px;
+    }
+
+    .leaf {
+        bottom: -15%;
+        left: -5%;
+        width: 250px;
+    }
+
+    .fm3 {
+        margin-top: 20px;
+    }
+
+    .pizza-2 {
+        animation: pizza2 0.4s linear;
+        animation-timeline: scroll();
+        width: 400px;
+    }
+
+    @keyframes pizza2 {
+        /* from {
+          transform: translateY(0px);
+        } */
+
+        to {
+            transform: translateY(200px);
+        }
+    }
+
+    .sp-offer-img {
+        margin-left: -80px;
+    }
+
+    .about-us-content {
+        margin-top: 30px;
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .best-leaf,
+    .bp2,
+    .bp3,
+    .bp4,
+    .bp5,
+    .bp6 {
+        width: 300px;
+    }
+
+    .choose {
+        padding: 70px 0px;
+    }
+
+    .delivery-man::before {
+        display: none;
+    }
+
+    .la-news .la-news-inner>div {
+        flex-direction: column;
+    }
+
+    .la-news-img {
+
+        margin-top: 30px;
+    }
+
+    .la-news-img .img1 a {
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    .img2,
+    .img3 {
+        margin-top: 40px;
+    }
+
+
+}
+
+@media (max-width:991px) {
+    .col-tb-12 {
+        width: 100%;
+    }
+
+    .col-tb-6 {
+        width: 50%;
+    }
+
+    .col-tb-6 {
+        width: 50%;
+    }
+
+    .garlic {
+        bottom: -3%;
+        left: 2%;
+        position: absolute;
+        width: 120px;
+    }
+
+    .leaf {
+        width: 150px;
+    }
+
+    .fm2 {
+        margin-top: 20px;
+    }
+
+    .best-leaf,
+    .bp2,
+    .bp3,
+    .bp4,
+    .bp5,
+    .bp6 {
+        animation: none;
+        width: 350px;
+        margin-left: -20px;
+    }
+
+    .best-leaf {
+        top: -30px;
+        left: 20px;
+    }
+
+    .bp2 {
+        top: -30px;
+        left: 50px;
+    }
+
+    .bp3 {
+        top: 20px;
+        left: 60px;
+        width: 230px;
+    }
+
+    .bp4 {
+        top: 20px;
+        left: 30px;
+    }
+
+    .bp5 {
+        top: 35px;
+        left: 40px;
+        width: 380px;
+    }
+
+    .bp6 {
+        top: 30px;
+        left: 10px;
+        width: 450px;
+    }
+
+    .sp-offer-img {
+        margin-top: 0px;
+    }
+
+    .offer-pizza-10 {
+        width: 500px;
+    }
+
+    .sp-offer-inner {
+        flex-direction: column;
+    }
+
+    .sp-offer {
+        padding: 70px 10px;
+    }
+
+    .sp-extra-offer {
+        display: none;
+    }
+
+    .icon-inner span {
+        margin-left: 0px;
+    }
+
+    .choose-main {
+        flex-direction: column;
+    }
+
+    .testimonials {
+        padding: 70px 0px;
+        background-color: transparent;
+    }
+
+    .news-inner {
+        flex-direction: column;
+    }
+
+    .news-input {
+        margin-top: 20px;
+    }
+
+    footer {
+        height: fit-content;
+    }
+
+    .ft2 {
+        flex-direction: column;
+    }
+
+    .fot-social-links {
+        flex-direction: row;
+    }
+
+    .img-parent,
+    .footer-inner {
+        flex-direction: column;
+    }
+
+    .footer-inner h2 {
+        font-size: 40px;
+    }
+
+    .footer-inner p {
+        font-size: 30px;
+    }
+
+    .img-parent {
+        margin-top: 30px;
+    }
+
+}
+
+@media (max-width:757px) {
+
+    header {
+        height: 800px;
+    }
+
+
+    .col-mh-12 {
+        width: 100%;
+    }
+
+    .banner-content {
+        margin-top: 10px;
+    }
+
+    .banner-content .choice span {
+        font-size: 40px;
+    }
+
+    .choice img {
+        width: 40px;
+    }
+
+    .banner-content h1 {
+        font-size: 80px;
+        line-height: 70px;
+    }
+
+    .banner-img,
+    .other-img {
+        display: none;
+    }
+
+    .features {
+        margin-left: 10%;
+    }
+
+    .best-img::before {
+        width: 0;
+        height: 0;
+    }
+
+    .circle {
+        display: none;
+    }
+
+    .best-leaf,
+    .bp2,
+    .bp3,
+    .bp4,
+    .bp5,
+    .bp6 {
+        animation: none;
+    }
+
+    .best-leaf {
+        width: 200px;
+        top: 70%;
+        left: 30%;
+    }
+
+    .bp2 {
+        top: -80%;
+        left: 20%;
+    }
+
+    .bp3 {
+        left: 40%;
+    }
+
+    .bp4 {
+        top: 50px;
+        left: 70px;
+    }
+
+    .bp5 {
+        top: 80px;
+        left: 75px;
+    }
+
+    .bp6 {
+        top: 70px;
+        width: 490px;
+    }
+
+    .best-img {
+        margin-top: 40px;
+        margin-bottom: 400px;
+    }
+
+    .about-us-left {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pizza-shop-01 {
+        height: 500px;
+        width: 100%;
+    }
+
+    .veg-img {
+        display: none;
+    }
+
+    .pizza-eating {
+        position: relative;
+    }
+
+    .pizza-img {
+        position: absolute;
+        bottom: -50px;
+        left: 20px;
+        width: 200px;
+    }
+
+    .pizza-eating {
+        margin-left: 0px;
+    }
+
+    .about-us-content {
+        margin-top: 30%;
+    }
+
+    .about-us-1 {
+        padding: 70px 0px;
+    }
+
+    /* .ci1{
+        flex-direction: column;
+    } */
+
+    .delivery-icons {
+        flex-direction: column;
+    }
+
+    .di {
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+
+    .delivery {
+        padding: 30px 0px;
+    }
+
+    .news-input {
+        flex-direction: column;
+        width: 100%;
+    }
+
+
+    .news-input a {
+        margin-left: 0px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .ft3 ul li a {
+        color: white;
+        margin-top: 20px;
+        margin-right: 10px;
+    }
+
+    .ft3 ul li a:not(.ft3 ul li:first-child a) {
+        border-left: none;
+        padding-left: 0px;
+    }
+
+    .ft3 {
+        flex-direction: column;
+    }
+
+    .ft4 {
+        margin-top: 15px;
+    }
+
+    .ft4 {
+        margin-top: 40px;
+    }
+}
+
+@media (max-width:575px) {
+
+    .col-mv-6 {
+        width: 50%;
+    }
+
+    .features {
+        margin-left: 0%;
+    }
+
+    .features-box {
+        width: 300px;
+    }
+
+    .menu {
+        margin-top: 20px;
+    }
+
+    .best-pizza img {
+        margin-left: -25%;
+    }
+
+    .sp-offer-img {
+        margin-top: 0px;
+    }
+
+    .offer-pizza-10 {
+        width: 400px;
+    }
+
+    .sp-offer-inner {
+        flex-direction: column;
+    }
+
+    .sp-extra-offer {
+        display: none;
+    }
+
+    .about-us-content {
+        margin-top: 45%;
+    }
+
+    .pizza-shop-01 {
+        width: 100%;
+        height: 400px;
+    }
+
+    .fa-bolt {
+        left: 55px;
+        top: 50px;
+    }
+
+    .news-input input {
+        width: 100%;
+    }
+
+
+    .news-inner {
+        padding: 60px 30px;
+    }
+
+    .news-input {
+        margin-left: 0px;
+    }
+
+    .news-inner h3 {
+        margin-top: 20px;
+    }
+
+    .date {
+        flex-direction: column;
+    }
+
+    .date span {
+        margin-top: 20px;
+    }
+}
